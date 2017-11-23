@@ -19,3 +19,7 @@ https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/
 1. Output model activations (after softmax) to CSV for multiple training runs/model variations
 1. Generate submission with voting/averaging strategy
 1. Predict same file many times with different transfromations and average/vote result (?, if performance allows)
+
+## Ideas
+
+- Record more noise
