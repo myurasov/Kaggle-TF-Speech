@@ -1,6 +1,9 @@
 # Kaggle: TensorFlow Speech Recognition Challenge
 https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/
 
+![Level 1 models training graphs](docs/l1-folds.png)
+
+
 ## Flow
 
 ### Generating training data
