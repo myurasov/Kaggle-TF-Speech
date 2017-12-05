@@ -4,7 +4,7 @@ https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/
 ![Level 1 models training graphs](docs/l1-folds.png)
 
 
-## Flow
+## V1 Flow
 
 ### Generating training data
 
@@ -26,3 +26,12 @@ https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/
 ## Ideas
 
 - Record more noise
+
+## V2 Flow
+
+1. Generate holdout set
+1. Generate 10 folds from filenames
+1. Generate training set excl. holdout set
+1. Train 10 L1 models, predict on test and holdout sets
+1. Train L2 model from predictions on holdout set
+1. Predict using L1 test prtedictions as inputs
